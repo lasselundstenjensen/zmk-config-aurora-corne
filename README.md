@@ -1,13 +1,8 @@
-# Pavlos' ZMK Config for Aurora Corne
+# Lasse's ZMK Config for Aurora Corne
 
 ### Flashing
 
-- Download the latest firmware, by running:
-
-```sh
-hub api -H "Accept: application/vnd.github+json" /repos/pvinis/zmk-config-corne/actions/artifacts |jq ".artifacts[0].archive_download_url" | xargs hub api > firmware.zip
-```
-
+- Download the latest firmware from the latest workflow run:
 - Then just unzip.
 - Connect each side of the keyboard using a cable.
 - Double tap the reset button.
