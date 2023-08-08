@@ -1,4 +1,4 @@
-# Lasse's ZMK Config for Aurora Corne
+# ZMK Config for Aurora Corne
 
 ### Flashing
 
